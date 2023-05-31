@@ -1,19 +1,19 @@
-# metasploit-framework
+# Metasploit Framework Tutorial
 The Metasploit Framework is a powerful and widely used penetration testing and exploitation tool. It provides a comprehensive set of tools and exploits for assessing and securing computer systems. Here's a basic tutorial to help you get started with the Metasploit Framework:
-
-Step 1: Install Metasploit Framework
+#
+### Install Metasploit Framework
 Metasploit Framework is available for multiple platforms, including Windows, macOS, and Linux. You can download it from the official Metasploit website (https://www.metasploit.com/) or use the Metasploit installer for your specific operating system.
-
-Step 2: Start Metasploit Console
+#
+### Start Metasploit Console
 After installation, open a terminal or command prompt and start the Metasploit Console by typing:
-
-Copy code
+```
 msfconsole
-Step 3: Explore the Modules
+```
+#
+### Explore the Modules
 The Metasploit Framework is organized into modules that perform different tasks. The three main types of modules are:
-
-Exploits: Modules that contain code to exploit vulnerabilities in target systems.
-Payloads: Modules that deliver malicious code to the target system once the vulnerability is exploited.
+- Exploits: Modules that contain code to exploit vulnerabilities in target systems.
+- Payloads: Modules that deliver malicious code to the target system once the vulnerability is exploited.
 Auxiliary: Modules that perform various tasks, such as scanning, fingerprinting, and information gathering.
 You can list available modules by typing:
 
